@@ -1,0 +1,184 @@
+/* font from gogole */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+/* common css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.primery-btn{
+    outline: 0;
+    border: 0;
+    padding: 10px 25px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px lightgrey;
+    transition: .5s ease-in-out;
+}
+.fa-long-arrow-alt-right{
+    margin-left: 10px;
+    
+}
+.primery-btn:hover{
+    border: 1px solid #E02C6D;
+    background-color: white;
+    color: black;
+    transform:  scale(1);
+    
+}
+.section-tittle{
+    text-align: center;
+    margin: 40px;
+}
+.section-tittle h2{
+    font-size: 30px;
+    text-align: center;
+    
+    border-bottom: 5px dotted #E02C6D;
+    display: inline-block;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    position: sticky;
+}
+nav h1{
+    font-size: 40px;
+}
+.nav-item ul{
+    display: flex;
+}
+.nav-item li{
+    list-style: none;
+    margin: 12px;
+}
+.nav-item li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.top-sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.top-sec-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(images\Circle-design.svg);
+}
+.top-sec-left h1{
+    font-size: 40px;
+}
+.top-sec-left p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.top-sec-right img{
+    width: 80%;
+    padding: 10px 20px;
+}
+
+
+
+.ecommerce-logo-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+.ecommerce-logo-sec img{
+    padding: 10px 20px;
+   
+}
+
+
+
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.product-info{
+    box-shadow: 5px 5px 10px lightslategray;
+    border-radius: 10px;
+}
+.product-info img{
+    width: 100%;
+    padding: 10px 15px;
+}
+.product-details{
+    padding: 10px 15px;
+}
+.product-details h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+.product-details h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+.product-details span{
+    color: lightslategrey;
+}
+.star-color{
+    color: #FB8200;
+}
+.product-details p{
+    font-size: 15px;
+    color: lightslategrey;
+}
+
+.see-more-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+.see-more-btn a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #E02C6D;
+    text-align: center;
+    display: inline-block;
+
+}
+.see-more-arrow{
+    font-size: 20px;
+    color: #E02C6D;
+    font-weight: 600;
+}
+
+
+#join-section{
+    margin-top: 5rem;
+}
